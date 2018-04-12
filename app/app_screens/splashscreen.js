@@ -14,7 +14,7 @@ class SplashScreen extends React.Component{
         super(props);
         setTimeout(function(){
             this._bootstrapAsync();
-        }.bind(this),000);
+        }.bind(this),3000);
     }
 
     _bootstrapAsync = async () => {
