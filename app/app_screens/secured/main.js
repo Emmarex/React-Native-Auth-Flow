@@ -22,8 +22,6 @@ export default Main;
 const styles = StyleSheet.create({
     container: {
       flex: 1,
-      paddingTop: 20,
-      marginTop: 50,
       alignContent: 'center',
     },
     mainText: {
