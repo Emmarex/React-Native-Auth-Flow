@@ -5,14 +5,15 @@ import { Card, FormLabel, FormInput, Button, Text } from 'react-native-elements'
 class Main extends Component {
 
     static navigationOptions = {
-        header: "Auth Flow App",
-        title : "Register"
+        title : "React Auth Flow"
     };
 
     render() {
         return(
             <View style={styles.containerStyle}>
-                <Text>App Header</Text>
+                <View style={styles.navBar}>
+                    <Text>React Auth Flow</Text>
+                </View>
             </View>
         )
     }
@@ -22,8 +23,11 @@ export default Main;
 
 const styles = StyleSheet.create({
     container: {
-      flex: 1,
-      justifyContent: 'center',
-      backgroundColor: '#ffff'
+      flex: 1
+    },
+    navBar: {
+        height: 55,
+        backgroundColor: 'white',
+        elevation: 4
     }
 });
