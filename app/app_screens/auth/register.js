@@ -9,6 +9,10 @@ class Register extends Component {
         title : "Login"
     };
     
+    register_user = (event) =>{
+        this.props.navigation.navigate('App');
+    }
+
     render(){
 
         const { navigate } = this.props.navigation;
@@ -54,6 +58,7 @@ class Register extends Component {
                     placeholder="Password" />
                 <View style={styles.spaceContainer} />
                 <Button raised title="Register" 
+                    onPress={this.register_user}
                     backgroundColor = "#03A9F4"/>
                 <TouchableOpacity onPress={()=>{ navigate("Login") }} >
                     <Text style={styles.register}>

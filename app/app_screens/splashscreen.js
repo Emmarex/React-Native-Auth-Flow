@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, AsyncStorage } from 'react-native';
+import { View } from 'react-native';
 import { Text } from 'react-native-elements';
 import { StackNavigator, SwitchNavigator } from "react-navigation";
 
@@ -14,12 +14,11 @@ class SplashScreen extends React.Component{
         super(props);
         setTimeout(function(){
             this._bootstrapAsync();
-        }.bind(this),3000);
+        }.bind(this),1000);
     }
 
     _bootstrapAsync = async () => {
-        const userToken = await AsyncStorage.getItem('userToken');
-        this.props.navigation.navigate(userToken ? 'App' : 'App')
+        this.props.navigation.navigate('Auth');
     };
 
     render(){

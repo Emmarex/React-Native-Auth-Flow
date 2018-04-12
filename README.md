@@ -8,4 +8,10 @@ If you are new to React Native how about you start here https://facebook.github.
 
 # App Screenshot
 
-![IOS ScreenShot](https://github.com/Emmarex/React-Native-Auth-Flow/blob/master/ios_app_screenshot_image.jpeg)
+#IOS Screenshot
+
+![IOS ScreenShot 1](https://github.com/Emmarex/React-Native-Auth-Flow/blob/master/ios_app_screenshot_image.jpeg)
+
+#Android Screenshot
+
+![Android ScreenShot 1]

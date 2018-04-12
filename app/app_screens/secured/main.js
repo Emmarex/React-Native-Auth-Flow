@@ -11,7 +11,9 @@ class Main extends Component {
     render() {
         return(
             <View style={styles.containerStyle}>
-                <Text style={styles.mainText}>React Auth Flow</Text>
+                <Text style={styles.mainText}>
+                    React Auth Flow Main Page
+                </Text>
             </View>
         )
     }
@@ -20,11 +22,11 @@ class Main extends Component {
 export default Main;
 
 const styles = StyleSheet.create({
-    container: {
+    containerStyle: {
       flex: 1,
-      alignContent: 'center',
+      alignItems: 'center', 
+      justifyContent: 'center'
     },
     mainText: {
-        alignSelf: 'center',
     }
 });
