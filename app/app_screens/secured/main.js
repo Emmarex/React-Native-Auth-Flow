@@ -11,9 +11,7 @@ class Main extends Component {
     render() {
         return(
             <View style={styles.containerStyle}>
-                <View style={styles.navBar}>
-                    <Text style={styles.navBarText}>React Auth Flow</Text>
-                </View>
+                <Text style={styles.mainText}>React Auth Flow</Text>
             </View>
         )
     }
@@ -26,13 +24,9 @@ const styles = StyleSheet.create({
       flex: 1,
       paddingTop: 20,
       marginTop: 50,
+      alignContent: 'center',
     },
-    navBar: {
-        height: 55,
-        backgroundColor: 'white',
-        elevation: 4
-    },
-    navBarText: {
-        alignContent: 'center',
+    mainText: {
+        alignSelf: 'center',
     }
 });
