@@ -6,7 +6,7 @@ class Register extends Component {
     
     static navigationOptions = {
         header: null,
-        title : "Login"
+        title : "Register"
     };
     
     register_user = (event) =>{
